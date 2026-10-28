@@ -1,0 +1,29 @@
+
+# Python environments
+.venv/
+.venv-waternet/
+.venv-ushape/
+
+# Downloaded research repositories
+external/
+
+# Datasets and pretrained checkpoints
+data/
+checkpoints/
+
+# Generated model outputs
+outputs/
+team_handoff/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary and compressed files
+*.zip
+*.rar
+*.log
+
+# Editor settings
+.vscode/
