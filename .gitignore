@@ -1,29 +1,144 @@
 
-# Python environments
+# ============================================================
+# AIP PROJECT - UNDERWATER IMAGE ENHANCEMENT
+# Georgia State University | CSC 8260
+# GitHub Repository: AIP_Underwater_Enhancement
+# ============================================================
+
+
+# ============================================================
+# 1. PYTHON VIRTUAL ENVIRONMENTS
+# ============================================================
+
 .venv/
 .venv-waternet/
 .venv-ushape/
+venv/
+env/
 
-# Downloaded research repositories
-external/
 
-# Datasets and pretrained checkpoints
-data/
-checkpoints/
+# ============================================================
+# 2. PYTHON CACHE AND TEMPORARY FILES
+# ============================================================
 
-# Generated model outputs
-outputs/
-team_handoff/
-
-# Python cache
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
 
-# Temporary and compressed files
+
+# ============================================================
+# 3. DOWNLOADED RESEARCH REPOSITORIES
+# ============================================================
+
+external/
+
+
+# ============================================================
+# 4. ORIGINAL DATASETS
+# ============================================================
+
+# Dataset files will be shared separately using official
+# download links or permitted distribution methods.
+
+data/
+
+
+# ============================================================
+# 5. PRETRAINED MODEL CHECKPOINTS
+# ============================================================
+
+# Large pretrained weights are excluded.
+# Teammates can download weights from official sources.
+
+checkpoints/
+
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.safetensors
+
+
+# ============================================================
+# 6. GENERATED OUTPUT IMAGES - INCLUDED IN GITHUB
+# ============================================================
+
+# DO NOT IGNORE outputs/
+#
+# The following folders are intentionally included:
+#
+# outputs/water_net_400/
+# outputs/u_shape_400/
+# outputs/u_shape_normalized_400/
+# outputs/comparisons/
+# outputs/metadata/
+# outputs/validation_u_shape/
+#
+# PNG, JPG, CSV and presentation comparison images
+# will be tracked and uploaded to GitHub.
+
+
+# ============================================================
+# 7. TEAM HANDOFF ARCHIVES
+# ============================================================
+
+# Avoid duplicate copies of images in Git history.
+
+team_handoff/
 *.zip
 *.rar
+*.7z
+
+
+# ============================================================
+# 8. SENSITIVE CONFIGURATION
+# ============================================================
+
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.json
+
+
+# ============================================================
+# 9. EDITOR SETTINGS
+# ============================================================
+
+.vscode/
+.idea/
+
+
+# ============================================================
+# 10. SYSTEM FILES
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# 11. LOGS
+# ============================================================
+
 *.log
 
-# Editor settings
-.vscode/
+
+# ============================================================
+# FILES INCLUDED IN GITHUB
+# ============================================================
+
+# scripts/
+# README.md
+# .gitignore
+# figures/
+# outputs/
+#
+# All generated model outputs and comparison images
+# are included unless excluded by another rule above.
+# ============================================================
